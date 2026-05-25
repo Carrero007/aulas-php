@@ -19,3 +19,9 @@ Executar o Xampp na máquina, iniciar os serviços Apache e MySQL e abrir em loc
 
 ## Instruções de uso
 abrir em localhost o seguinte link: 
+
+
+## Autores 
+Mateus Carlos Romano - DS3
+Pedro Agostinho Carrero - DS3
+Talita de Assis Godoy - DS3

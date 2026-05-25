@@ -1,0 +1,10 @@
+CEP da Avenida Paulista: 01310-100
+CEP da Cristo Redentor: 22241-330
+CEP da Pelourinho: 40026-280
+CEP da Praia de Copacabana: 22070-000
+CEP da Mercado Municipal de São Paulo: 01024-001
+CEP da Jardim Botânico de Curitiba: 82590-300
+CEP da Esplanada dos Ministérios: 70050-000
+CEP da Teatro Amazonas: 69010-140
+CEP da Porto de Galinhas: 55590-000
+CEP da Parque Ibirapuera: 04094-050

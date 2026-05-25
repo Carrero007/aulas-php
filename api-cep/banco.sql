@@ -9,8 +9,8 @@ CREATE TABLE `endereco` (
   `bairro` varchar(255) DEFAULT NULL,
   `cidade` varchar(255) DEFAULT NULL,
   `estado` varchar(2) DEFAULT NULL,
-  `pais` varchar(255) DEFAULT NULL,
-)
+  `pais` varchar(255) DEFAULT NULL
+);
 
 INSERT INTO `endereco` (`id`, `cep`, `logradouro`, `bairro`, `cidade`, `estado`, `pais`) VALUES
 (1, '13175667', 'Avenida Ipê Amarelo', 'Parque Villa Flores', 'Sumaré', 'SP', 'Brasil'),

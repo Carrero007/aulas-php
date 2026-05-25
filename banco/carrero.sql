@@ -43,9 +43,16 @@ CREATE TABLE `endereco` (
 
 INSERT INTO `endereco` (`id`, `cep`, `logradouro`, `bairro`, `cidade`, `estado`, `pais`) VALUES
 (2, '13175667', 'Avenida Ipê Amarelo', 'Parque Villa Flores', 'Sumaré', NULL, 'Brasil'),
-(3, '13175667', 'Avenida Ipê Amarelo', 'Parque Villa Flores', 'Sumaré', NULL, 'Brasil'),
-(4, '13175667', 'Avenida Ipê Amarelo', 'Parque Villa Flores', 'Sumaré', NULL, 'Brasil'),
-(5, '13175667', 'Avenida Ipê Amarelo', 'Parque Villa Flores', 'Sumaré', NULL, 'Brasil');
+(2, '01310100', 'Avenida Paulista', 'Bela Vista', 'São Paulo', 'SP', 'Brasil'),
+(3, '22241330', 'Parque Nacional da Tijuca', 'Cosme Velho', 'Rio de Janeiro', 'RJ', 'Brasil'),
+(4, '40026280', 'Largo do Pelourinho', 'Pelourinho', 'Salvador', 'BA', 'Brasil'),
+(5, '22070000', 'Avenida Atlântica', 'Copacabana', 'Rio de Janeiro', 'RJ', 'Brasil'),
+(6, '01024001', 'Rua da Cantareira', 'Centro Histórico', 'São Paulo', 'SP', 'Brasil'),
+(7, '82590300', 'Rua Engenheiro Ostoja Roguski', 'Jardim Botânico', 'Curitiba', 'PR', 'Brasil'),
+(8, '70050000', 'Esplanada dos Ministérios', 'Zona Cívico-Administrativa', 'Brasília', 'DF', 'Brasil'),
+(9, '69010140', 'Avenida Eduardo Ribeiro', 'Centro', 'Manaus', 'AM', 'Brasil'),
+(10, '55590000', 'Rua Beijupirá', 'Porto de Galinhas', 'Ipojuca', 'PE', 'Brasil'),
+(11, '04094050', 'Avenida Pedro Álvares Cabral', 'Vila Mariana', 'São Paulo', 'SP', 'Brasil');
 
 --
 -- Índices para tabelas despejadas

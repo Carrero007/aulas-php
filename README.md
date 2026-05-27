@@ -146,12 +146,6 @@ api_cep
 
 ### 3. Importar o banco.sql
 
-Entre na pasta:
-
-```bash
-banco/
-```
-
 Copie o conteúdo do arquivo:
 
 ```bash

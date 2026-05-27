@@ -69,7 +69,7 @@ api-cep/
 ├── config/
 │   └── database.php
 │
-├── index.php
+├── index.html
 │
 ├── banco.sql
 │ 

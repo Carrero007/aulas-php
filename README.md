@@ -148,7 +148,7 @@ Cole na aba **SQL** do phpMyAdmin e execute.
 
 # 📦 Estrutura da Tabela
 
-<img src="img/endereco_schema.svg" width="100%">
+![Inserts](https://github.com/user-attachments/assets/8fd4c431-b5d8-43d9-94d3-cc2f760b92c7)
 
 ```sql
 CREATE TABLE endereco (
@@ -164,7 +164,7 @@ CREATE TABLE endereco (
 
 # ➕ Inserts pra Tabela
 
-<img src="img/endereco_inserts.svg" width="100%">
+![Schema](https://github.com/user-attachments/assets/31defe9c-6f65-477a-8523-d1bfef67e21b)
 
 
 ```sql

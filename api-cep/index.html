@@ -276,6 +276,14 @@
 
     function mostrarResposta(dados) {
         document.getElementById('resposta').textContent = JSON.stringify(dados, null, 2);
+        irParaResposta();
+    }
+
+    function irParaResposta() {
+        document.getElementById('resposta-wrapper').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
     }
 
     // ---- GET ----
@@ -283,6 +291,8 @@
         const cep = document.getElementById('get-cep').value;
         const res = await fetch(API + '?cep=' + cep);
         mostrarResposta(await res.json());
+
+        document.getElementById('get-cep').value = '';
     }
 
     // ---- POST ----
@@ -311,12 +321,24 @@
             estado:     document.getElementById('post-estado').value,
             pais:       document.getElementById('post-pais').value
         };
+
         const res = await fetch(API, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         });
-        mostrarResposta(await res.json());
+
+        const dados = await res.json();
+        mostrarResposta(dados);
+
+        if (!dados.erro) {
+            document.getElementById('post-cep').value = '';
+            document.getElementById('post-logradouro').value = '';
+            document.getElementById('post-bairro').value = '';
+            document.getElementById('post-cidade').value = '';
+            document.getElementById('post-estado').value = '';
+            document.getElementById('post-pais').value = '';
+        }
     }
 
     // ---- PUT ----
@@ -363,18 +385,26 @@
             estado:     document.getElementById('put-estado').value,
             pais:       document.getElementById('put-pais').value
         };
+
         const res = await fetch(API, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
         });
+
         const dados = await res.json();
         mostrarResposta(dados);
 
         if (!dados.erro) {
             document.getElementById('put-fields').style.display = 'none';
             document.getElementById('put-msg').innerHTML = '';
+
             document.getElementById('put-cep').value = '';
+            document.getElementById('put-logradouro').value = '';
+            document.getElementById('put-bairro').value = '';
+            document.getElementById('put-cidade').value = '';
+            document.getElementById('put-estado').value = '';
+            document.getElementById('put-pais').value = '';
         }
     }
 
@@ -382,7 +412,13 @@
     async function removerCep() {
         const cep = document.getElementById('delete-cep').value;
         const res = await fetch(API + '?cep=' + cep, { method: 'DELETE' });
-        mostrarResposta(await res.json());
+
+        const dados = await res.json();
+        mostrarResposta(dados);
+
+        if (!dados.erro) {
+            document.getElementById('delete-cep').value = '';
+        }
     }
 </script>
 

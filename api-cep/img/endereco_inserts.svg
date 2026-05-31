@@ -1,0 +1,185 @@
+<svg viewBox="0 0 780 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="780" height="560" fill="#f8f8f6" rx="16"/>
+
+  <!-- Header -->
+  <rect x="32" y="24" width="716" height="56" fill="#1a1a2e" rx="12"/>
+  <text x="60" y="48" fill="#fff" font-size="18" font-weight="700" font-family="Georgia,serif">endereco</text>
+  <text x="60" y="68" fill="#8888aa" font-size="11" font-family="monospace">11 registros · Brasil</text>
+  <rect x="614" y="36" width="82" height="20" rx="10" fill="#2e2e50"/>
+  <text x="655" y="50" text-anchor="middle" fill="#9999cc" font-size="10" font-weight="700" font-family="monospace">INSERTS</text>
+
+  <!-- Section label -->
+  <line x1="32" y1="100" x2="50" y2="100" stroke="#ccc" stroke-width="1.5"/>
+  <text x="56" y="104" font-size="10" font-weight="700" fill="#888" font-family="monospace">REGISTROS</text>
+  <rect x="694" y="90" width="54" height="20" rx="10" fill="#faeeda"/>
+  <text x="721" y="104" text-anchor="middle" font-size="10" font-weight="700" fill="#854F0B" font-family="monospace">11 linhas</text>
+
+  <!-- Card -->
+  <rect x="32" y="114" width="716" height="392" fill="#fff" rx="10" stroke="#e8e8e4" stroke-width="1"/>
+
+  <!-- Table header -->
+  <rect x="32" y="114" width="716" height="30" fill="#f3f3f0" rx="10"/>
+  <rect x="32" y="129" width="716" height="15" fill="#f3f3f0"/>
+  <text x="50" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">#</text>
+  <text x="84" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">CEP</text>
+  <text x="172" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">LOGRADOURO</text>
+  <text x="390" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">BAIRRO</text>
+  <text x="556" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">CIDADE</text>
+  <text x="690" y="133" font-size="10" font-weight="700" fill="#666" font-family="monospace">UF</text>
+  <line x1="32" y1="144" x2="748" y2="144" stroke="#e8e8e4" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="32" y="144" width="716" height="28" fill="#fff"/>
+  <text x="50" y="162" font-size="11" fill="#aaa" font-family="monospace">1</text>
+  <text x="84" y="162" font-size="11" fill="#185FA5" font-family="monospace">13175-667</text>
+  <text x="172" y="162" font-size="11" fill="#2d2d2d" font-family="monospace">Av. Ipe Amarelo</text>
+  <text x="390" y="162" font-size="11" fill="#2d2d2d" font-family="monospace">Parque Villa Flores</text>
+  <text x="556" y="162" font-size="11" fill="#2d2d2d" font-family="monospace">Sumare</text>
+  <rect x="680" y="150" width="28" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="694" y="162" text-anchor="middle" font-size="10" font-weight="700" fill="#0C447C" font-family="monospace">SP</text>
+  <line x1="32" y1="172" x2="748" y2="172" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <rect x="32" y="172" width="716" height="28" fill="#fafaf8"/>
+  <text x="50" y="190" font-size="11" fill="#aaa" font-family="monospace">2</text>
+  <text x="84" y="190" font-size="11" fill="#185FA5" font-family="monospace">01310-100</text>
+  <text x="172" y="190" font-size="11" fill="#2d2d2d" font-family="monospace">Av. Paulista</text>
+  <text x="390" y="190" font-size="11" fill="#2d2d2d" font-family="monospace">Bela Vista</text>
+  <text x="556" y="190" font-size="11" fill="#2d2d2d" font-family="monospace">Sao Paulo</text>
+  <rect x="680" y="178" width="28" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="694" y="190" text-anchor="middle" font-size="10" font-weight="700" fill="#0C447C" font-family="monospace">SP</text>
+  <line x1="32" y1="200" x2="748" y2="200" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <rect x="32" y="200" width="716" height="28" fill="#fff"/>
+  <text x="50" y="218" font-size="11" fill="#aaa" font-family="monospace">3</text>
+  <text x="84" y="218" font-size="11" fill="#185FA5" font-family="monospace">22241-330</text>
+  <text x="172" y="218" font-size="11" fill="#2d2d2d" font-family="monospace">Pq. Nac. da Tijuca</text>
+  <text x="390" y="218" font-size="11" fill="#2d2d2d" font-family="monospace">Cosme Velho</text>
+  <text x="556" y="218" font-size="11" fill="#2d2d2d" font-family="monospace">Rio de Janeiro</text>
+  <rect x="680" y="206" width="28" height="16" rx="4" fill="#e1f5ee"/>
+  <text x="694" y="218" text-anchor="middle" font-size="10" font-weight="700" fill="#085041" font-family="monospace">RJ</text>
+  <line x1="32" y1="228" x2="748" y2="228" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <rect x="32" y="228" width="716" height="28" fill="#fafaf8"/>
+  <text x="50" y="246" font-size="11" fill="#aaa" font-family="monospace">4</text>
+  <text x="84" y="246" font-size="11" fill="#185FA5" font-family="monospace">40026-280</text>
+  <text x="172" y="246" font-size="11" fill="#2d2d2d" font-family="monospace">Lg. do Pelourinho</text>
+  <text x="390" y="246" font-size="11" fill="#2d2d2d" font-family="monospace">Pelourinho</text>
+  <text x="556" y="246" font-size="11" fill="#2d2d2d" font-family="monospace">Salvador</text>
+  <rect x="680" y="234" width="28" height="16" rx="4" fill="#faeeda"/>
+  <text x="694" y="246" text-anchor="middle" font-size="10" font-weight="700" fill="#633806" font-family="monospace">BA</text>
+  <line x1="32" y1="256" x2="748" y2="256" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 5 -->
+  <rect x="32" y="256" width="716" height="28" fill="#fff"/>
+  <text x="50" y="274" font-size="11" fill="#aaa" font-family="monospace">5</text>
+  <text x="84" y="274" font-size="11" fill="#185FA5" font-family="monospace">22070-000</text>
+  <text x="172" y="274" font-size="11" fill="#2d2d2d" font-family="monospace">Av. Atlantica</text>
+  <text x="390" y="274" font-size="11" fill="#2d2d2d" font-family="monospace">Copacabana</text>
+  <text x="556" y="274" font-size="11" fill="#2d2d2d" font-family="monospace">Rio de Janeiro</text>
+  <rect x="680" y="262" width="28" height="16" rx="4" fill="#e1f5ee"/>
+  <text x="694" y="274" text-anchor="middle" font-size="10" font-weight="700" fill="#085041" font-family="monospace">RJ</text>
+  <line x1="32" y1="284" x2="748" y2="284" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 6 -->
+  <rect x="32" y="284" width="716" height="28" fill="#fafaf8"/>
+  <text x="50" y="302" font-size="11" fill="#aaa" font-family="monospace">6</text>
+  <text x="84" y="302" font-size="11" fill="#185FA5" font-family="monospace">01024-001</text>
+  <text x="172" y="302" font-size="11" fill="#2d2d2d" font-family="monospace">R. da Cantareira</text>
+  <text x="390" y="302" font-size="11" fill="#2d2d2d" font-family="monospace">Centro Historico</text>
+  <text x="556" y="302" font-size="11" fill="#2d2d2d" font-family="monospace">Sao Paulo</text>
+  <rect x="680" y="290" width="28" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="694" y="302" text-anchor="middle" font-size="10" font-weight="700" fill="#0C447C" font-family="monospace">SP</text>
+  <line x1="32" y1="312" x2="748" y2="312" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 7 -->
+  <rect x="32" y="312" width="716" height="28" fill="#fff"/>
+  <text x="50" y="330" font-size="11" fill="#aaa" font-family="monospace">7</text>
+  <text x="84" y="330" font-size="11" fill="#185FA5" font-family="monospace">82590-300</text>
+  <text x="172" y="330" font-size="11" fill="#2d2d2d" font-family="monospace">R. Eng. O. Roguski</text>
+  <text x="390" y="330" font-size="11" fill="#2d2d2d" font-family="monospace">Jardim Botanico</text>
+  <text x="556" y="330" font-size="11" fill="#2d2d2d" font-family="monospace">Curitiba</text>
+  <rect x="680" y="318" width="28" height="16" rx="4" fill="#eaf3de"/>
+  <text x="694" y="330" text-anchor="middle" font-size="10" font-weight="700" fill="#27500A" font-family="monospace">PR</text>
+  <line x1="32" y1="340" x2="748" y2="340" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 8 -->
+  <rect x="32" y="340" width="716" height="28" fill="#fafaf8"/>
+  <text x="50" y="358" font-size="11" fill="#aaa" font-family="monospace">8</text>
+  <text x="84" y="358" font-size="11" fill="#185FA5" font-family="monospace">70050-000</text>
+  <text x="172" y="358" font-size="11" fill="#2d2d2d" font-family="monospace">Esplanada dos Min.</text>
+  <text x="390" y="358" font-size="11" fill="#2d2d2d" font-family="monospace">Zona Civico-Adm.</text>
+  <text x="556" y="358" font-size="11" fill="#2d2d2d" font-family="monospace">Brasilia</text>
+  <rect x="680" y="346" width="28" height="16" rx="4" fill="#eeedfe"/>
+  <text x="694" y="358" text-anchor="middle" font-size="10" font-weight="700" fill="#3C3489" font-family="monospace">DF</text>
+  <line x1="32" y1="368" x2="748" y2="368" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 9 -->
+  <rect x="32" y="368" width="716" height="28" fill="#fff"/>
+  <text x="50" y="386" font-size="11" fill="#aaa" font-family="monospace">9</text>
+  <text x="84" y="386" font-size="11" fill="#185FA5" font-family="monospace">69010-140</text>
+  <text x="172" y="386" font-size="11" fill="#2d2d2d" font-family="monospace">Av. Eduardo Ribeiro</text>
+  <text x="390" y="386" font-size="11" fill="#2d2d2d" font-family="monospace">Centro</text>
+  <text x="556" y="386" font-size="11" fill="#2d2d2d" font-family="monospace">Manaus</text>
+  <rect x="680" y="374" width="28" height="16" rx="4" fill="#faece7"/>
+  <text x="694" y="386" text-anchor="middle" font-size="10" font-weight="700" fill="#712B13" font-family="monospace">AM</text>
+  <line x1="32" y1="396" x2="748" y2="396" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 10 -->
+  <rect x="32" y="396" width="716" height="28" fill="#fafaf8"/>
+  <text x="50" y="414" font-size="11" fill="#aaa" font-family="monospace">10</text>
+  <text x="84" y="414" font-size="11" fill="#185FA5" font-family="monospace">55590-000</text>
+  <text x="172" y="414" font-size="11" fill="#2d2d2d" font-family="monospace">R. Beijupira</text>
+  <text x="390" y="414" font-size="11" fill="#2d2d2d" font-family="monospace">Porto de Galinhas</text>
+  <text x="556" y="414" font-size="11" fill="#2d2d2d" font-family="monospace">Ipojuca</text>
+  <rect x="680" y="402" width="28" height="16" rx="4" fill="#fbeaf0"/>
+  <text x="694" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#72243E" font-family="monospace">PE</text>
+  <line x1="32" y1="424" x2="748" y2="424" stroke="#f5f5f2" stroke-width="1"/>
+
+  <!-- Row 11 -->
+  <rect x="32" y="424" width="716" height="28" fill="#fff"/>
+  <text x="50" y="442" font-size="11" fill="#aaa" font-family="monospace">11</text>
+  <text x="84" y="442" font-size="11" fill="#185FA5" font-family="monospace">04094-050</text>
+  <text x="172" y="442" font-size="11" fill="#2d2d2d" font-family="monospace">Av. P. Alvares Cabral</text>
+  <text x="390" y="442" font-size="11" fill="#2d2d2d" font-family="monospace">Vila Mariana</text>
+  <text x="556" y="442" font-size="11" fill="#2d2d2d" font-family="monospace">Sao Paulo</text>
+  <rect x="680" y="430" width="28" height="16" rx="4" fill="#e6f1fb"/>
+  <text x="694" y="442" text-anchor="middle" font-size="10" font-weight="700" fill="#0C447C" font-family="monospace">SP</text>
+
+  <!-- Footer -->
+  <rect x="32" y="452" width="716" height="30" fill="#f3f3f0"/>
+  <rect x="32" y="464" width="716" height="18" fill="#f3f3f0"/>
+  <text x="50" y="471" font-size="10" fill="#aaa" font-family="monospace">11 registros · Brasil · utf8mb4</text>
+
+  <!-- Distribution bar -->
+  <rect x="32" y="494" width="716" height="7" rx="3" fill="#eee"/>
+  <rect x="32" y="494" width="5" height="7" rx="3" fill="#378ADD"/>
+  <rect x="37" y="494" width="255" height="7" fill="#378ADD"/>
+  <rect x="287" y="494" width="5" height="7" rx="3" fill="#378ADD"/>
+  <rect x="292" y="494" width="130" height="7" fill="#1D9E75"/>
+  <rect x="422" y="494" width="48" height="7" fill="#EF9F27"/>
+  <rect x="470" y="494" width="48" height="7" fill="#639922"/>
+  <rect x="518" y="494" width="48" height="7" fill="#7F77DD"/>
+  <rect x="566" y="494" width="48" height="7" fill="#D85A30"/>
+  <rect x="614" y="494" width="48" height="7" fill="#D4537E"/>
+  <rect x="662" y="494" width="81" height="7" fill="#eee"/>
+  <rect x="743" y="494" width="5" height="7" rx="3" fill="#eee"/>
+
+  <!-- Legend -->
+  <rect x="32" y="512" width="8" height="8" rx="2" fill="#378ADD"/>
+  <text x="44" y="520" font-size="10" fill="#aaa" font-family="monospace">SP x4</text>
+  <rect x="90" y="512" width="8" height="8" rx="2" fill="#1D9E75"/>
+  <text x="102" y="520" font-size="10" fill="#aaa" font-family="monospace">RJ x2</text>
+  <rect x="148" y="512" width="8" height="8" rx="2" fill="#EF9F27"/>
+  <text x="160" y="520" font-size="10" fill="#aaa" font-family="monospace">BA x1</text>
+  <rect x="206" y="512" width="8" height="8" rx="2" fill="#639922"/>
+  <text x="218" y="520" font-size="10" fill="#aaa" font-family="monospace">PR x1</text>
+  <rect x="264" y="512" width="8" height="8" rx="2" fill="#7F77DD"/>
+  <text x="276" y="520" font-size="10" fill="#aaa" font-family="monospace">DF x1</text>
+  <rect x="322" y="512" width="8" height="8" rx="2" fill="#D85A30"/>
+  <text x="334" y="520" font-size="10" fill="#aaa" font-family="monospace">AM x1</text>
+  <rect x="380" y="512" width="8" height="8" rx="2" fill="#D4537E"/>
+  <text x="392" y="520" font-size="10" fill="#aaa" font-family="monospace">PE x1</text>
+</svg>

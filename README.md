@@ -136,16 +136,6 @@ http://localhost/phpmyadmin
 
 ### 2. Criar o banco de dados
 
-Crie um banco chamado:
-
-```sql
-api_cep
-```
-
----
-
-### 3. Importar o banco.sql
-
 Copie o conteúdo do arquivo:
 
 ```bash
@@ -157,6 +147,8 @@ Cole na aba **SQL** do phpMyAdmin e execute.
 ---
 
 # 📦 Estrutura da Tabela
+
+![Schema](img/endereco_schema.svg)
 
 ```sql
 CREATE TABLE endereco (
@@ -171,6 +163,8 @@ CREATE TABLE endereco (
 ```
 
 # ➕ Inserts pra Tabela
+
+![Inserts](img/endereco_inserts.svg)
 
 ```sql
 INSERT INTO `endereco` (`id`, `cep`, `logradouro`, `bairro`, `cidade`, `estado`, `pais`) VALUES
@@ -201,12 +195,20 @@ GET /api/cep.php?cep=13175667
 
 # - Exemplo de Uso
 
+#### Para ver somente o retorno da API
 Abra no navegador:
 
 ```bash
-http://localhost/api-cep/api/cep.php?cep=13175667
+http://localhost/aulas-php/api-cep/api/cep.php?cep=13175667
 ```
 
+---
+
+#### Para ver o retorno da API com tratamento visual 
+
+```bash
+http://localhost/aulas-php/api-cep/index.html
+```
 ---
 
 #  Exemplo de Retorno JSON
@@ -227,12 +229,16 @@ http://localhost/api-cep/api/cep.php?cep=13175667
 # 🧠 Fluxo da Aplicação
 
 ```mermaid
-graph LR
+graph TD
 
---> A[Usuário informa o CEP]
---> B[API recebe requisição GET]
---> C[Consulta no banco/API externa]
---> D[Retorna JSON]
+A[Usuário informa o CEP]
+B[API recebe requisição GET]
+C[Consulta no banco/API externa]
+D[Retorna JSON]
+
+A --> B
+B --> C
+C --> D
 ```
 
 ---

@@ -244,6 +244,29 @@ C --> D
 
 ---
 
+## 🖥️ Demonstração Visual
+
+### 🔍 Consultar
+![Consultar](https://github.com/user-attachments/assets/2dd27a39-6a29-48e9-95fb-a1bcac1ef24e)
+
+### 🔍 Resultado da Consulta
+![Consultar Resultado](https://github.com/user-attachments/assets/61e156b0-d407-4f7a-9993-41c8f7ec12ff)
+
+### ➕ Cadastrar
+![Cadastrar 1](https://github.com/user-attachments/assets/0c329e6f-c394-432b-bdfc-eb551f3496ee)
+![Cadastrar 2](https://github.com/user-attachments/assets/eece8da2-202e-4cd1-8d05-edcfec6e01b6)
+![Cadastrar 3](https://github.com/user-attachments/assets/ffc177d2-f469-44ed-9803-52c1c1c0b2c1)
+
+### ✏️ Atualizar
+![Atualizar 1](https://github.com/user-attachments/assets/9df8b220-d72e-4453-aa81-b072121f336a)
+![Atualizar 2](https://github.com/user-attachments/assets/eb5f3616-290f-4ba6-9f02-b7699fb95bd0)
+![Atualizar 3](https://github.com/user-attachments/assets/4bf14282-a2bb-42ca-ad61-cf0b3674cf58)
+
+### 🗑️ Remover
+![Remover](https://github.com/user-attachments/assets/7e7250b0-2f6a-4bc2-a2a1-2f986e583392)
+
+---
+
 # 🔐 Validações Implementadas
 
 - Verificação de CEP vazio  

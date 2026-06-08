@@ -21,7 +21,7 @@ O sistema utiliza:
 - XAMPP
 - API Externa de CEP
 - Arquitetura REST
-- Requisições GET, POST E DELETE
+- Requisições GET, POST, PUT E DELETE
 
 A aplicação retorna dados completos como:
 
